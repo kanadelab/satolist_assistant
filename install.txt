@@ -1,0 +1,5 @@
+charset,Shift_JIS
+name,さとりすとアシスタント_dev
+type,ghost
+directory,satolist_assistant_dev
+refresh,0

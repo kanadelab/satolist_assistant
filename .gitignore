@@ -1,0 +1,10 @@
+/shell/master/profile
+/ghost/master/profile
+/ghost/master/satori_savebackup.txt
+/ghost/master/satori_savedata.txt
+*.pyc
+/shell/base/temp
+updates.txt
+updates2.dau
+/git_commits.bat
+/shell/base/profile

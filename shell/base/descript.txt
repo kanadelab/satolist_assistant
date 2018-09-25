@@ -1,0 +1,5 @@
+charset,Shift_JIS
+name,フリーモードシェル
+type,shell
+readme,readme.txt
+seriko.use_self_alpha,1

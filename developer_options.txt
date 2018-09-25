@@ -1,0 +1,3 @@
+.git/,nonar,noupdate
+git_commits.bat,nonar,noupdate
+.gitignore,nonar,noupdate

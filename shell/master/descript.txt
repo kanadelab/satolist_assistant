@@ -1,0 +1,10 @@
+charset,Shift_JIS
+name,マスターシェル2
+type,shell
+readme,readme.txt
+seriko.use_self_alpha,1
+
+sakura.bindgroup201.name,口,口パク
+sakura.bindgroup202.name,口,開口
+sakura.bindgroup203.name,口,閉口
+sakura.bindgroup201.default,1
