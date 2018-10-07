@@ -68,35 +68,38 @@ element4,overlay,parts/cat_tail.png,0,0
 
 }
 
-//--- 基本の表情設定
+//--- 基本の表情設定 元気表情
 
 //0		デフォルト
 //1		1,1	眉＿上弱(4)/口＿驚き(12)/照れ(cheek_1)
-//2		1,2	眉＿上強(5)/口＿開強(11)/目見開き強(4)
-//3		1,3	眉＿困り(2)/口＿え(13)/HLジト/目ジト(4)
-//4		1,5	眉＿上強(5)/口＿笑み(18)/目笑み(6)/(ハイライト非表示)
-//5		1,6	目閉じ(7)/(ハイライト非表示)
+//2		1,2	眉＿上弱(4)/口＿開強(11)/目元気見開き強(4)
+//3		1,3	眉＿困り(2)/口＿え(13)/HL元気ジト/目元気ジト(1)
+//4		1,5	眉＿上弱(4)/口＿笑み(18)/目元気笑み(6)/(ハイライト非表示)
+//5		1,6	目元気閉じ(7)/(ハイライト非表示)
 //6		1,7	眉＿怒り(1)/口＿小閉じ(4)
 //7		2,1	眉＿困り(2)/口＿苦笑(14)/汗(sweat)
 //8		2,2	眉＿怒り(1)/口＿え(13)/照れ(cheek_1)
-//9		2,3	口＿素閉じ(6)
+//9		2,3	口＿素閉じ(2)
 //20	2,4	眉＿困り(2)/口＿小閉じ(4)/照れ(cheek_1)
 //21	2,5	眉＿上弱(4)/口＿呆(5)/汗(sweat)
-//22	2,6	眉＿困り(2)/口＿開弱(5)/目閉じ(7)/(ハイライト非表示)
-//23	2,7	眉＿困り上(3)/目笑み(6)/照れ(cheek_1)/(ハイライト非表示)
-//24	3,1	目閉じ(7)/照れ(cheek_1)/(ハイライト非表示)
-//25	3,2	眉＿怒り(1)/口＿小閉じ(4)/HLジト/目ジト(4)
-//26	3,3	眉＿困り(2)/口＿引きつり(15)/HLジト/目ジト(4)/汗(sweat)
-//27	3,4	眉＿怒り(1)/口＿え(13)/HLジト/目ジト(4)/照れ(cheek_1)
-//28	3,5	口＿開微(6)/HLジト/目ジト(4)/照れ(cheek_1)
+//22	2,6	眉＿困り(2)/口＿開弱(10)/目閉じ(6)/(ハイライト非表示)
+//23	2,7	眉＿困り上(3)/目元気笑み(6)/照れ(cheek_1)/(ハイライト非表示)
+//24	3,1	目元気閉じ(7)/照れ(cheek_1)/(ハイライト非表示)
+//25	3,2	眉＿怒り(1)/口＿小閉じ(4)/HL元気ジト/目元気ジト(1)
+//26	3,3	眉＿困り(2)/口＿引きつり弱(16)/HL元気ジト/目元気ジト(1)/汗(sweat)
+//27	3,4	眉＿怒り(1)/口＿え(13)/HL元気ジト/目元気ジト(1)/照れ(cheek_1)
+//28	3,5	口＿開微(6)/HL元気ジト/目元気ジト(1)/照れ(cheek_1)
 //29	3,6	眉＿怒り(1)/口＿開強(11)
-//30	3,7	眉＿困り(2)/口＿笑み弱(17)/目閉じ(7)/汗(sweat)/(ハイライト非表示)
-//31	4,5	眉＿怒り(1)/口＿え(13)/青ざめ/汗(sweat)
+//30	3,7	眉＿困り(2)/口＿笑み弱(17)/目元気笑み(6)/汗(sweat)/(ハイライト非表示)
+//31	4,5	眉＿怒り(1)/口＿え(13)/目元気見開き強(4)/青ざめ/汗(sweat)
 //32	4,6	眉＿怒り(1)/口＿驚き(12)/HL驚愕/目驚愕(5)/汗(sweat)
 //33	4,7	眉＿怒り(1)/口＿驚き(12)/HL驚愕/目驚愕(5)/照れ(cheek_1)/汗(sweat)
-//34	5,2	眉＿困り上(3)/口＿結(3)/照れ(cheek_1)/涙(tear_0)
-//35	5,4	眉＿困り(2)/口＿開強(11)/目笑み(6)/照れ(cheek_1)/涙Ｂ(tear_1)/(ハイライト非表示)
-//36	5,6	眉＿困り(2)/HLジト/目ジト(4)/照れ(cheek_1)
+//34	5,2	眉＿困り上(3)/口＿結(3)/照れ(cheek_1)/涙元気(tear_2_1)
+//35	5,4	眉＿困り(2)/口＿開強(11)/目笑み(6)/照れ(cheek_1)/涙元気Ｂ(tear_2_1)/(ハイライト非表示)
+//36	5,6	眉＿困り(2)/HL元気ジト/目元気ジト(1)/照れ(cheek_1)
+
+
+
 
 surface.append0
 {
@@ -117,21 +120,21 @@ surface.append2
 {
 element11,overlay,eye/4.png,132,154
 element12,overlay,mouth/11.png,161,195
-element13,overlay,eyebrow/5.png,0,0
+element13,overlay,eyebrow/4.png,0,0
 }
 
 surface.append3
 {
-element11,overlay,eye/4.png,132,154
-element12,overlay,mouth/11.png,161,195
-element13,overlay,eyebrow/5.png,0,0
+element11,overlay,eye/1.png,132,154
+element12,overlay,mouth/13.png,161,195
+element13,overlay,eyebrow/2.png,0,0
 }
 
 surface.append4
 {
-element11,overlay,eye/4.png,132,154
+element11,overlay,eye/6.png,132,154
 element12,overlay,mouth/18.png,161,195
-element13,overlay,eyebrow/5.png,0,0
+element13,overlay,eyebrow/4.png,0,0
 }
 
 surface.append5
@@ -167,7 +170,7 @@ element14,overlay,parts/cheek_1.png,0,0
 surface.append9
 {
 element11,overlay,eye/0.png,132,154
-element12,overlay,mouth/6.png,161,195
+element12,overlay,mouth/2.png,161,195
 element13,overlay,eyebrow/0.png,0,0
 }
 
@@ -189,8 +192,8 @@ element14,overlay,parts/sweat.png,0,0
 
 surface.append22
 {
-element11,overlay,eye/7.png,132,154
-element12,overlay,mouth/5.png,161,195
+element11,overlay,eye/6.png,132,154
+element12,overlay,mouth/10.png,161,195
 element13,overlay,eyebrow/2.png,0,0
 }
 
@@ -212,22 +215,22 @@ element14,overlay,parts/cheek_1.png,0,0
 
 surface.append25
 {
-element11,overlay,eye/4.png,132,154
+element11,overlay,eye/1.png,132,154
 element12,overlay,mouth/4.png,161,195
 element13,overlay,eyebrow/1.png,0,0
 }
 
 surface.append26
 {
-element11,overlay,eye/4.png,132,154
-element12,overlay,mouth/15.png,161,195
+element11,overlay,eye/1.png,132,154
+element12,overlay,mouth/16.png,161,195
 element13,overlay,eyebrow/2.png,0,0
 element14,overlay,parts/sweat.png,0,0
 }
 
 surface.append27
 {
-element11,overlay,eye/4.png,132,154
+element11,overlay,eye/1.png,132,154
 element12,overlay,mouth/13.png,161,195
 element13,overlay,eyebrow/1.png,0,0
 element14,overlay,parts/cheek_1.png,0,0
@@ -235,7 +238,7 @@ element14,overlay,parts/cheek_1.png,0,0
 
 surface.append28
 {
-element11,overlay,eye/4.png,132,154
+element11,overlay,eye/1.png,132,154
 element12,overlay,mouth/6.png,161,195
 element13,overlay,eyebrow/0.png,0,0
 element14,overlay,parts/cheek_1.png,0,0
@@ -250,7 +253,7 @@ element13,overlay,eyebrow/1.png,0,0
 
 surface.append30
 {
-element11,overlay,eye/7.png,132,154
+element11,overlay,eye/6.png,132,154
 element12,overlay,mouth/17.png,161,195
 element13,overlay,eyebrow/2.png,0,0
 element14,overlay,parts/sweat.png,0,0
@@ -288,7 +291,7 @@ element11,overlay,eye/0.png,132,154
 element12,overlay,mouth/3.png,161,195
 element13,overlay,eyebrow/3.png,0,0
 element14,overlay,parts/cheek_1.png,0,0
-element15,overlay,parts/tear_0.png,0,0
+element15,overlay,parts/tear_2_0.png,0,0
 }
 
 surface.append35
@@ -297,12 +300,12 @@ element11,overlay,eye/6.png,132,154
 element12,overlay,mouth/11.png,161,195
 element13,overlay,eyebrow/2.png,0,0
 element14,overlay,parts/cheek_1.png,0,0
-element15,overlay,parts/tear_1.png,0,0
+element15,overlay,parts/tear_2_1.png,0,0
 }
 
 surface.append36
 {
-element11,overlay,eye/4.png,132,154
+element11,overlay,eye/1.png,132,154
 element12,overlay,mouth/0.png,161,195
 element13,overlay,eyebrow/2.png,0,0
 element14,overlay,parts/cheek_1.png,0,0
