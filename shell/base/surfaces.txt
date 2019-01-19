@@ -56,14 +56,13 @@ surface0-9,20-36,!31
 {
 
 //‚µ‚Á‚Û
-//element1,overlay,parts/cat_tail.png,0,0
+element1,overlay,parts/cat_tail.png,0,0
 
 //‘f‘Ì
 element2,overlay,base.png,0,0
 
 //”LŽ¨
 element3,overlay,parts/cat_ear.png,0,0
-element4,overlay,parts/cat_tail.png,0,0
 
 
 }
